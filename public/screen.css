@@ -10,3 +10,63 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+header {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  background-color: #512DA8;
+}
+
+header nav.right-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  color: white;
+  text-decoration-line: underline;
+}
+
+header nav.left-banner {
+  color: white;
+}
+
+header nav p a {
+  padding-right: 1rem;
+  color: white;
+  text-decoration-line: underline;
+}
+
+
+
+.main-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-image h1 {
+  font-size: 2rem;
+  margin: 10rem 0;
+  color: white;
+}
+
+section.img-attribute {
+  text-align: center;
+  font-size: .8rem
+}
+
+.spaceX-section-yellow {
+  background-color: #FFC107;
+  margin: auto;
+  padding-bottom: 1rem
+}
+
+.spaceX-section-yellow h2 {
+  padding-top: .8rem;
+  padding-left: .5rem;
+  font-weight: 500;
+}
