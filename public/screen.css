@@ -62,11 +62,47 @@ section.img-attribute {
 .spaceX-section-yellow {
   background-color: #FFC107;
   margin: auto;
-  padding-bottom: 1rem
+  padding-bottom: .3rem
 }
 
 .spaceX-section-yellow h2 {
   padding-top: .8rem;
   padding-left: .5rem;
   font-weight: 500;
+}
+
+.left.arrow {
+  border-radius: 0 1rem 1rem 0rem
+}
+
+.right.arrow {
+  border-radius: 1rem 0rem 0rem 1rem
+}
+
+.arrow {
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8rem 0rem 8rem 0rem;
+  background-color: var(--main-accent-color);
+  font-size: 2rem;
+}
+
+.launch-card-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.launch-card-secondary {
+  margin: 1rem 3rem;
+  padding: 0 1rem 0.5rem 1rem;
+  background-color: #ededed;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.card-parent {
+  text-align: center;
 }
