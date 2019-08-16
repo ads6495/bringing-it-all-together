@@ -37,8 +37,6 @@ header nav p a {
   text-decoration-line: underline;
 }
 
-
-
 .main-image {
   background-position: center;
   background-repeat: no-repeat;
@@ -103,6 +101,31 @@ section.img-attribute {
   width: 100%;
 }
 
-.card-parent {
+
+.card-style {
+  border-bottom: solid 1px black;
+  padding: 1rem 0;
+}
+
+.card-styles {
+  padding: 1rem 0;
+}
+
+div.card-parent h3 {
   text-align: center;
+}
+
+.mission-statement {
+  text-align: center;
+  background-color: #D1C4E9;
+  font-size: 1.2rem;
+  padding: 1.2rem 0 .9rem 0;
+}
+
+.end-footer {
+  background-color: #673AB7;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
