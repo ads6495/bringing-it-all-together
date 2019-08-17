@@ -70,22 +70,29 @@ section.img-attribute {
 }
 
 .left.arrow {
-  border-radius: 0 1rem 1rem 0rem
+  border-radius: 0 1rem 1rem 0rem;
+  /* position: relative;
+  top: 10rem; */
 }
 
 .right.arrow {
-  border-radius: 1rem 0rem 0rem 1rem
+  border-radius: 1rem 0rem 0rem 1rem;
+  /* position: relative;
+  left: 80rem */
 }
 
 .arrow {
-  width: 5rem;
+  width: 10rem;
+  background-color: #F9C132;
+  height: 2.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 8rem 0rem 8rem 0rem;
-  background-color: var(--main-accent-color);
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
+
+
 
 .launch-card-main {
   display: flex;
@@ -98,7 +105,9 @@ section.img-attribute {
   padding: 0 1rem 0.5rem 1rem;
   background-color: #ededed;
   border-radius: 0.5rem;
-  width: 100%;
+  width: 75%;
+  position: relative;
+  left: 7rem;
 }
 
 
@@ -128,4 +137,13 @@ div.card-parent h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+#main-container-flex {
+  display: inline-flex;
+}
+
+#container {
+  width: 90%
 }
